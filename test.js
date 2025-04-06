@@ -9,7 +9,7 @@ const { Tarea, TareaCompuesta } = require("./tarea");
   const t1221 = new Tarea("1.2.2.1", 3);
   const t1222 = new Tarea("1.2.2.2", 6);
   t1222.cambiarComplejidad();
-  const t121 = new Tarea("1.2.1", 4, "minima");
+  const t121 = new Tarea("1.2.1", 4);
   const t122 = new TareaCompuesta("1.2.2", 1, [t1221, t1222]);
   const t12 = new TareaCompuesta("1.2", 4, [t121, t122]);
   t12.cambiarComplejidad();
